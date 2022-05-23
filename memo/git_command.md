@@ -41,3 +41,9 @@ git branch -a
 ## これからは~/.config/git/ignoreから、pushするファイル（共通）の対策を張ること
 
 間違えて.DS_Storeを上げてしまうことがよくあるから、最初の環境準備は要注意。
+
+削除するときは、
+
+```
+git rm .DS_Store
+```
