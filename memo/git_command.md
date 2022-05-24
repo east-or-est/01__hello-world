@@ -43,7 +43,17 @@ git branch -a
 ```
 
 
-## これからは~/.config/git/ignoreから、pushするファイル（共通）の対策を張ること
+## （確認中）これからは~/.config/git/ignoreから、pushするファイル（共通）の対策を張ること
+
+~/.config/git/ignoreが動かない。
+
+~/.gitignore_globalかと思い調べてもこちらも効かない。
+
+https://docs.github.com/ja/get-started/getting-started-with-git/ignoring-files
+
+キャッシュが原因というのもあるらしいが、ここは調べておく。
+
+
 
 間違えて.DS_Storeを上げてしまうことがよくあるから、最初の環境準備は要注意。
 
