@@ -4,6 +4,11 @@
 ***
 
 
+## メモ
+
+SourcetreeとVSCodeの設定を見直す。
+Sourcetreeはなぜかコンクリフトしてしまう。
+
 ## アクセストークン
 
 「Settings＞Developer settings」から「Personal access tokens」を選択し、アクセストークンを発行する。
