@@ -1,7 +1,18 @@
-# gitメモ
+# Git・GitHubメモ
 
 
 ***
+
+## プライベートリポジトリをcloneするとき
+
+「Settings＞Developer settings」から「Personal access tokens」を選択し、アクセストークンを発行する。
+今回は試しに7日間＆とりあえずrepoだけ選択し、以下のようにcloneした。
+
+```
+git clone https://ghp_＜トークン＞@github.com/east-or-est/＜プライベートリポジトリ名＞
+```
+
+トークンを早く削除したい場合は管理画面から削除する。
 
 
 ## .gitignoreのメモ
