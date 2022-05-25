@@ -23,6 +23,11 @@ Username for 'https://github.com':east-or-est
 Password for 'https://east-or-est@github.com':＜ここでアクセストークンを入力＞
 ```
 
+## メモ
+
+SourcetreeとVSCodeの設定を見直す。
+Sourcetreeはなぜかコンクリフトしてしまう。
+
 ## アクセストークン
 
 「Settings＞Developer settings」から「Personal access tokens」を選択し、アクセストークンを発行する。
