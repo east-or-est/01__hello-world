@@ -23,9 +23,6 @@ Username for 'https://github.com':east-or-est
 Password for 'https://east-or-est@github.com':＜ここでアクセストークンを入力＞
 ```
 
-test
-
-
 ## アクセストークン
 
 「Settings＞Developer settings」から「Personal access tokens」を選択し、アクセストークンを発行する。
