@@ -4,6 +4,29 @@
 ***
 
 
+test
+
+
+## アクセストークン
+
+「Settings＞Developer settings」から「Personal access tokens」を選択し、アクセストークンを発行する。
+今回は試しに7日間＆とりあえずrepoだけ選択した。
+
+トークンを早く削除したい場合は管理画面から削除する。
+
+### プライベートリポジトリをcloneするとき
+
+```
+git clone https://ghp_＜トークン＞@github.com/east-or-est/＜プライベートリポジトリ名＞
+```
+
+### pushするとき
+
+```
+Username for 'https://github.com':east-or-est
+Password for 'https://east-or-est@github.com':＜ここでアクセストークンを入力＞
+```
+
 ## .gitignoreのメモ
 
 Next.jsはデフォルトで用意されている。
