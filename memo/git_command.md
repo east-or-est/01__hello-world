@@ -4,9 +4,6 @@
 ***
 
 
-test
-
-
 ## アクセストークン
 
 「Settings＞Developer settings」から「Personal access tokens」を選択し、アクセストークンを発行する。
