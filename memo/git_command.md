@@ -29,6 +29,17 @@ Username for 'https://github.com':east-or-est
 Password for 'https://east-or-est@github.com':＜ここでアクセストークンを入力＞
 ```
 
+### GitHub Actionsを触るとき
+
+workflowにチェックをつけてアクセストークンを発行すること。pushできずにrejectedされてしまう。
+
+エラー内容はこんな感じ
+
+```
+ ! [remote rejected] main -> main (refusing to allow a Personal Access Token to create or update workflow `***` without `workflow` scope)
+error: failed to push some refs to '＜リポジトリの場所＞'
+```
+
 ## .gitignoreのメモ
 
 Next.jsはデフォルトで用意されている。
